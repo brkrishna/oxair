@@ -11,18 +11,14 @@
     <section class="bg-[#dddddd]">
         <section class="bg-[#FFFFFF] mx-24 border-2">
             <header>
-                <div class="grid grid-cols-2 pt-10 px-24 font-sans text-base font-semibold text-[#20205E]">
-                    <div class="items-start">
+                <div class="flex justify-between pt-10 px-24 font-sans text-base font-semibold text-[#20205E]">
+                    <div class="">
                         <img class="w-28" src="./assets/asset_images/Oxair-Logo.png" alt="blank">
                     </div>
                     <div class="flex gap-2">
-                        <a href="./index.html">Home</a>
-                        <select class="mt-[-6px]" name="" id="productDropdown">
-                            <option value="">Our Products</option>
-                            <option value="OurProducts.html">Our Product</option>
-                            
-                        </select>
-                         <a href="./AboutOxAir.html">About Oxair India</a>
+                        <a href="./index.html">Home</a> |
+                        <a href="OurProducts.html">OXAIR HIGH PERFORMANCE 150</a> |
+                        <a href="./AboutOxAir.html">About Oxair India</a> |
                         <button
                             class="rounded-3xl font-sans font-semibold text-sm px-6 py-1 bg-[#3AD003] text-white">Get
                             Quote</button>
@@ -40,10 +36,11 @@
                                     REVOLUTIONIZING NITROGEN PRODUCTION</p>
                                 <p class="w-[18rem] font-sans font-semibold  text-[#2BDAFA] text-2xl mt-2">
                                     Powering progress with reliable nitrogen solutions</p>
-                                <button class="rounded-3xl px-6 py-1 font-sans font-semibold text-sm bg-[#3AD003] mt-3 text-white">
+                                <button
+                                    class="rounded-3xl px-6 py-1 font-sans font-semibold text-sm bg-[#3AD003] mt-3 text-white">
                                     Learn More</button>
                             </div>
-    
+
                         </div>
                         <div class="flex gap-4">
                             <p class="w-16 py-1 rounded-full bg-[#CCCCCC]"></p>
@@ -164,7 +161,8 @@
                         </div>
                         <div class="bg-[#20205E] w-96  rounded-lg text-white ml-[-24px] mt-4 py-2 px-6">
                             <h5 class="font-sans font-semibold text-lg">Glass</h5>
-                            <p class="font-sans font-normal text-xs text-justify">Oxair offers Oxygen plant for glass industry with
+                            <p class="font-sans font-normal text-xs text-justify">Oxair offers Oxygen plant for glass
+                                industry with
                                 an assured
                                 ROI of 2 years.
                                 Considering the harsh environment, Oxair designed Oxygen plant that works 24/7 for the
@@ -317,7 +315,8 @@
                         <div>
                             <p class="text-[#2BDAFA] text-3xl font-sans font-bold">What our customers say</p>
                             <p class="text-[#20205E] text-3xl font-sans font-bold">Testimonials</p>
-                            <p class="text-[#888888] font-sans font-style: italic text-xs my-3 text-justify">"It gives us immense
+                            <p class="text-[#888888] font-sans font-style: italic text-xs my-3 text-justify">"It gives
+                                us immense
                                 pleasure to inform you that the Oxygen Generation Plant,
                                 installed by your company was commissioned in January 2018. It is the first
                                 PSA Oxygen Generation Plant in Davangere, and the oxygen being produced
@@ -427,8 +426,8 @@
                             </div>
                             <div>
                                 <p class="text-base text-[#202020] font-sans font-semibold my-2">Quick Links</p>
-                                <p class="font-sans font-normal text-sm text-[#888888]">Home | Products | About Oxair
-                                    India | Resources Blog | Contact Us</p>
+                                <p class="font-sans font-normal text-sm text-[#888888]"><a href="./index.html">Home</a>| <a href="./OurProducts.html">Products</a> | <a href="./AboutOxAir.html">About Oxair
+                                    India</a> | Resources Blog | Contact Us</p>
                             </div>
                             <div>
                                 <p class="text-base text-[#202020] font-sans font-semibold my-2">Product Links (OG -
@@ -458,17 +457,10 @@
             </main>
         </section>
 
-         
+
     </section>
+
     
-    <script>
-        document.getElementById("productDropdown").addEventListener("change", function() {
-            var selectedValue = this.value;
-            if (selectedValue) {
-                window.location.href = selectedValue;
-            }
-        });
-    </script>
 
 </body>
 

@@ -11,18 +11,14 @@
     <section class="bg-[#dddddd]">
         <section class="bg-[#FFFFFF] mx-24 border-2">
             <header>
-                <div class="grid grid-cols-2 pt-10 px-24 font-sans text-base font-semibold text-[#20205E]">
-                    <div class="items-start">
+                <div class="flex justify-between pt-10 px-24 font-sans text-base font-semibold text-[#20205E]">
+                    <div class="">
                         <img class="w-28" src="./assets/asset_images/Oxair-Logo.png" alt="blank">
                     </div>
                     <div class="flex gap-2">
-                        <a href="./index.html">Home</a>
-                        <select class="mt-[-6px]" name="" id="productDropdown">
-                            <option value="">Our Products</option>
-                            <option value="OurProducts.html">Our Product</option>
-                            
-                        </select>
-                         <a href="./AboutOxAir.html">About Oxair India</a>
+                        <a href="./index.html">Home</a> |
+                        <a href="OurProducts.html">OXAIR HIGH PERFORMANCE 150</a> |
+                        <a href="./AboutOxAir.html">About Oxair India</a> |
                         <button
                             class="rounded-3xl font-sans font-semibold text-sm px-6 py-1 bg-[#3AD003] text-white">Get
                             Quote</button>
@@ -193,8 +189,8 @@
                         </div>
                         <div>
                             <p class="text-base text-[#202020] font-sans font-semibold my-2">Quick Links</p>
-                            <p class="font-sans font-normal text-sm text-[#888888]">Home | Products | About Oxair
-                                India | Resources Blog | Contact Us</p>
+                            <p class="font-sans font-normal text-sm text-[#888888]"><a href="./index.html">Home</a>| <a href="./OurProducts.html">Products</a> | <a href="./AboutOxAir.html">About Oxair
+                                India</a> | Resources Blog | Contact Us</p>
                         </div>
                         <div>
                             <p class="text-base text-[#202020] font-sans font-semibold my-2">Product Links (OG -
@@ -227,14 +223,7 @@
 
     </section>
 
-    <script>
-        document.getElementById("productDropdown").addEventListener("change", function() {
-            var selectedValue = this.value;
-            if (selectedValue) {
-                window.location.href = selectedValue;
-            }
-        });
-    </script>
+     
 
 </body>
 
