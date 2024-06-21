@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className='bg-white'>
       <Header />
       <Component {...pageProps} />
       <Footer />
