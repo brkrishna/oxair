@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+.bg-green-color{
+  background-color: #39D000;
+}
+.green-color{
+  color: #39D000;
+}
+.lawn-green {
+  color: #1ED7F8;
+}
+.dark-blue{
+  color: #20205E;
+
+}
+body{
+  font-family: Arial, sans-serif;
+  background: #DDDDDD;
+}
+.headings{
+  font: normal normal bold 18px/24px Open Sans;
+}
+.sub-headings{
+  font: normal normal bold 36px/42px Open Sans;
+}
+.banner-heading{
+  font: normal bold 2.5vw/2.8vw Open Sans;
+letter-spacing: 0.84px;
+}
+.banner-sub-heading{
+  font: normal normal 600 2.0vw/2.5vw Open Sans;
+  letter-spacing: 0.76px;
+  color: #2BDAFA;
+}
+
+.nav-link{
+  /* font-size: 20px; */
+  color: #20205e;
+  line-height: 27px;
+  font: normal normal 600 14px/27px Open Sans;
+}
+.dropdown-item{
+  color: #888888;
+  line-height: 27px;
+  font: normal normal 600 14px/30px;
+}
+.navbar{
+  padding:0;
+}
+.carousel-caption{
+  left: 0;
+  top: 50%;
+  transform: translatey(-50%);
+}
+.carousel-indicators [data-bs-target]{
+  background-color: #20205E;
+  border-radius: 13px;
+  width: 65px;   
+  padding: 3px;
+}
+.carousel-indicators{
+  margin: 0;
+  left: 10px;
+  bottom: -15px !important;
+  right: auto;
+}
+/*---list items----*/
+.why-oxair-list{
+  line-height: 30px;
+}
+.why-oxair-list > li::before{
+  content: " ";
+  background-image: url("../assets/icons/Checkmark.png");
+  background-size: 100%;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: -32px;
+
+}
+.why-oxair-list > li{
+  margin: 3px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.try-roi-section{
+  background: url("../assets/images/try-roi-calculater.png") no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.content-section{
+  display: grid;
+  justify-content: space-around;
+  color: #fff;
+  width: 50%;
+  padding: 8% 20px;
+h4{
+  font-size: 2vw;
+  margin-bottom: .2rem;
+}
+a{
+  font-size:1vw;
+  text-decoration: none;
+  color: #1ED7F8;
+}
+}
+ul.our-market-tabs {
+  li{
+  width: 80px;
+    button.active{
+      color: #2BDAFA !important;
+      border: none;
+    }
+    button.nav-link{
+      color: #20205E;
+      border: none;
+     
+    }
+    button.nav-link:hover{
+      color: #2BDAFA !important;
+    }
+}
+}
+.tab-content {
+  background: #20205E;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  h4{
+    font: normal normal 600 20px/27px Open Sans;
+  }
+  p{
+    font: normal normal normal 14px/20px Open Sans;
+  }
+  button.bg-green-color{
+    background-color: white;
+    color: #000 !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+/*ContactUs Today */
+.contact-us-banner {
+  background-color: #1b1464;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  h4 {
+    color: white;
+    font-weight: bold;
+  }
+  p {
+    color: #00ccff;
+    margin: 0;
+  }
+}
+.contact-info {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  .icon {  
+    margin: 0 auto 20px;
+  }
+}
+.footer {
+  padding: 40px 0;
+}
+.footer-content{
+
+  h6{
+    font: normal normal 600 17px Open Sans;
+    margin-bottom: 20px;
+  }
+  address{
+    font: normal normal normal 14px/20px Open Sans;
+    color: #888888;
+  }
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  li + li{
+    border-left: 1px solid #888;
+  }
+  li{
+    padding: 0px 8px;
+    float: left;
+    line-height: 13px;
+    margin-bottom: 10px;
+  }
+  
+    a{
+      font-size: 14px;
+      color: #888888;
+      text-decoration: none;
+    }
+  }
+.contact-text {
+  color: #4caf50;
+  font-size: 18px;
+}
+.border-r{
+  border-right: 1px solid #2BDAFA;
+}
+.copy-rights{
+  font-size: 12px;
+  color: #888888;
+  margin: 0;
+}
+.social-icons{
+  display: inline-block;
+  margin-top: 15px;
+  a{
+    margin: 0 5px;
+    display: inline-block;
+  }
+}
+
+/*About Oxair*/
+.inner-banner{
+  background-image:url(../assets/images/inner-banner-img.png);
+  padding: 7% 20px;
+  background-size: 100%;
+  margin: 25px 0px;
+  background-repeat: no-repeat;
+  h1.banner-heading{
+    color: #fff;
+  }
+
+}
+/*container*/
+.container{
+  max-width: 100%;
+  padding: 0 10%;
+  background: #fff;
+ }
+@media(min-width:1640px) {
+ .container{
+  max-width: 1380px;
+  padding: 0 5%;
+ }
+ .content-section{
+  width: 75%;
+ }
+}
