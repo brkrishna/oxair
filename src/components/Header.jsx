@@ -6,21 +6,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import AboutOxair from "@/pages/aboutOxair";
+
 
 const Header = () => {
   return (
     <>
-     
-      {/* <Navbar color="light" light expand="md">
-        <Nav className="mr-auto" navbar>
-          <NavItem>
-            <NavLink href="/">Home</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="/about">About</NavLink>
-          </NavItem>
-        </Nav>
-      </Navbar> */}
         <Navbar collapseOnSelect expand="lg">
       <Container>
         <Navbar.Brand href="#home"> <Image src={Logo} alt="" width={221} height={56} /></Navbar.Brand>
@@ -39,7 +30,7 @@ const Header = () => {
               Other Products
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#pricing">About Oxair India</Nav.Link>
+            <Nav.Link href="/aboutOxair">About Oxair India</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

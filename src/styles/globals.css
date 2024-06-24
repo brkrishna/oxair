@@ -232,6 +232,19 @@ ul.our-market-tabs {
     display: inline-block;
   }
 }
+
+/*About Oxair*/
+.inner-banner{
+  background-image:url(../assets/images/inner-banner-img.png);
+  padding: 7% 20px;
+  background-size: 100%;
+  margin: 25px 0px;
+  background-repeat: no-repeat;
+  h1.banner-heading{
+    color: #fff;
+  }
+
+}
 /*container*/
 .container{
   max-width: 100%;
