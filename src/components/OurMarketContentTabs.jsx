@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tabs, Tab, Button } from 'react-bootstrap';
+import { Tabs, Tab } from 'react-bootstrap';
 import Image from 'next/image';
 import AquaImage from '../assets/images/water.png';
 import MedicalImage from '../assets/images/medical.png';
