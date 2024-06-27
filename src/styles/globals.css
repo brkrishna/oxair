@@ -424,3 +424,98 @@ span{
   font-weight: 700;
   font-size: 24px;
 }
+
+
+/* styles/Home.module.css */
+ 
+.product-heading1{
+  font: normal normal bold 18px/24px Open Sans;
+  text-align: left;
+}
+.font-oxy{
+  font:normal normal bold 18px Open Sans;
+  color:#888888 ;
+}
+.oxy-smallfont{
+  font:normal normal bold 14px Open Sans;
+  color:#888888 ;
+}
+.sub-headings1{
+  font: normal normal bold 28px Open Sans;
+}
+ 
+
+.product-heading{
+  font: 16px/24px Open Sans #888888;
+  text-align: justify;
+}
+.icon-text-box {
+  display: flex;
+  align-items: center;
+padding-left: 10px;}
+.icon-text-box img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.thumanails{
+  display: flex;
+  padding: 4px;
+  margin-top: 12px;
+
+}
+ 
+
+.img-border{
+  border-right:0.5px solid;
+}
+@media (max-width: 767.98px) { /* Adjust the max-width value as needed for your breakpoints */
+  .img-border {
+      border-right: none;
+  }
+}
+
+.item {
+  font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    margin: -8px; 
+    text-align: center;
+    transition: background-color 0.3s;
+    font-size: 14px;
+    color: #888;
+   
+}
+ 
+.bordercolor{
+   border-bottom: 8px solid #CCCCCC;
+  
+}
+.activetop{
+  border-bottom: 8px solid #2BDAFA ;
+  cursor: pointer;
+  color:#2BDAFA  ;
+  transition: background-color 0.3s;
+  
+  
+}
+.img-width{
+  margin-top: 88px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: #20205E;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    font: normal normal  14px/20px Open Sans;
+}
+.inner-icon{
+  width:32px;
+}
+
+.know-more
+{
+  font-size: small;
+}
+ 
+ 
