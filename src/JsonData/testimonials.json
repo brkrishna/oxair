@@ -1,17 +1,20 @@
  [
-    {
-      "id": 1,
-      "name": "K Gopal",
-      "company": "Linde India Limited",
-      "designation": "General Manager – Procurement",
-      "text":{
+
+  {
+    "id": 1,
+    "name": "Dir. Prof (Dr) Ishwar Singh",
+    "company": "Indira Gandhi Hospital, New Delhi",
+    "designation": "MD",
+     "text":{
         "readText":[
- "We are grateful for your immense service and maintenance of our Oxygen Generation Plant at B.R. Singh Hospital, Sealdah, West Bengal. Your expertise in this area was invaluable, and your willingness and proactive in proving customer satisfaction with us was greatly appreciated."
+            "The sustained efforts of your Team reflect a lot on the way you conduct business as a whole. I observed that we had real-time support of the original manufacturer and this gives us immense confidence. Gives our hospital a more robust, reliable and economical means of providing life-saving systems to our patients.",
+            "We have recommended Oxair as a reliable partner to other Hospitals and within our medical fraternity."
         ]
-      },     
-      "readMoreLink": "",
-      "videoUrl": ""
-    },
+     },
+    "readMoreLink": "",
+   "videoUrl": "/video/DrIshwarSinghIGHDelhi.mp4"
+  },
+    
     {
         "id": 2,
         "name": "Vijaya Health",
@@ -123,7 +126,7 @@
         "videoUrl": " "
       },
       {
-        "id": 9,
+        "id": 10,
         "name": "Dr.S.M. Byadgi, General Surgeon,",
         "company": "Sukshema Hospital, Karnataka",
         "designation": "",
@@ -135,5 +138,18 @@
         },
          "readMoreLink": "",
         "videoUrl": "/video/Dr_SM_Byadigi_Sukshema.mp4"
+      },
+      {
+        "id": 11,
+        "name": "K Gopal",
+        "company": "Linde India Limited",
+        "designation": "General Manager – Procurement",
+        "text":{
+          "readText":[
+   "We are grateful for your immense service and maintenance of our Oxygen Generation Plant at B.R. Singh Hospital, Sealdah, West Bengal. Your expertise in this area was invaluable, and your willingness and proactive in proving customer satisfaction with us was greatly appreciated."
+          ]
+        },     
+        "readMoreLink": "",
+        "videoUrl": ""
       }
   ]

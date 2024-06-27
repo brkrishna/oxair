@@ -48,6 +48,14 @@ letter-spacing: 0.84px;
   line-height: 27px;
   font: normal normal 600 14px/27px Open Sans;
 }
+.get-quote {
+  background: #39D000;
+  border: none;
+  padding: 2px 30px;
+  border-radius: 30px;
+  margin: 0;
+  color: #fff;
+}
 .dropdown-item{
   color: #888888;
   line-height: 27px;
@@ -357,6 +365,18 @@ margin-left: 20px;
     color: #888888;
   }
 }
+.carousel-control-next, .carousel-control-prev{
+  width: 40px;
+  background: #20205e;
+  height: 40px;
+  transform: translateY(-50%);
+  top: 50%;
+  border-radius: 100%;
+
+span{
+  background-size: 60%;
+}
+}
 
 
 /* .nav-tabs .nav-link.active{
@@ -367,6 +387,14 @@ margin-left: 20px;
   max-width: 100%;
   padding: 0 10%;
   background: #fff;
+ }
+ @media(max-width:768px){
+  .our-technology-tabs {
+   
+    li {
+      width: 50%;
+    }
+  }
  }
 @media(min-width:1640px) {
  .container{

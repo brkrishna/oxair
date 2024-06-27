@@ -7,9 +7,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import AboutOxair from "@/pages/aboutOxair";
+import ButtonComponent from "./Buttons";
+import { useRouter } from "next/router";
 
 
 const Header = () => {
+
+  const router = useRouter()
+  const getQuote =() =>{
+    router.push(`/contactUs`);
+  }
+
   return (
     <>
         <Navbar collapseOnSelect expand="lg">
@@ -20,17 +28,20 @@ const Header = () => {
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Our Products" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">High Performance Models</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/">High Performance Models</NavDropdown.Item>
+              <NavDropdown.Item href="/">
               Super Saver Models
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Oxair Pressure Vessels</NavDropdown.Item>
+              <NavDropdown.Item href="/">Oxair Pressure Vessels</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/">
               Other Products
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/aboutOxair">About Oxair India</Nav.Link>
+            <Nav.Link href="/contactUs">
+            <ButtonComponent className="get-quote" label="Get Quote" />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
