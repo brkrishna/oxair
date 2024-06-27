@@ -12,7 +12,7 @@ const InnerPageBanner = ({
         backgroundPosition: 'center',
         padding: '100px 0',
         color: '#fff',
-        textAlign: 'center',
+        textAlign: 'left',
       };
 
     return(

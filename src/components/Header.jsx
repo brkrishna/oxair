@@ -7,6 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import AboutOxair from "@/pages/aboutOxair";
+import productPage from "@/pages/highPerformanceModels";
 
 
 const Header = () => {
@@ -18,9 +19,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Our Products" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">High Performance Models</NavDropdown.Item>
+            <Nav.Link href="/highPerformanceModels">High Performance Models</Nav.Link>
               <NavDropdown.Item href="#action/3.2">
               Super Saver Models
               </NavDropdown.Item>
@@ -29,7 +30,7 @@ const Header = () => {
               <NavDropdown.Item href="#action/3.4">
               Other Products
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> 
             <Nav.Link href="/aboutOxair">About Oxair India</Nav.Link>
           </Nav>
         </Navbar.Collapse>
