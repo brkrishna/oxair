@@ -8,14 +8,22 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import AboutOxair from "@/pages/aboutOxair";
 import productPage from "@/pages/highPerformanceModels";
+import { useRouter } from "next/router";
+import ButtonComponent from "./Buttons";
 
 
 const Header = () => {
+
+  const router = useRouter()
+  const getQuote =() =>{
+    router.push(`/contactUs`);
+  }
+
   return (
     <>
         <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home"> <Image src={Logo} alt="" width={221} height={56} /></Navbar.Brand>
+        <Navbar.Brand href="/"> <Image src={Logo} alt="" width={221} height={56} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
@@ -25,13 +33,16 @@ const Header = () => {
               <NavDropdown.Item href="#action/3.2">
               Super Saver Models
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Oxair Pressure Vessels</NavDropdown.Item>
+              <NavDropdown.Item href="/">Oxair Pressure Vessels</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/">
               Other Products
               </NavDropdown.Item>
             </NavDropdown> 
             <Nav.Link href="/aboutOxair">About Oxair India</Nav.Link>
+            <Nav.Link href="/contactUs">
+            <ButtonComponent className="get-quote" label="Get Quote" />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

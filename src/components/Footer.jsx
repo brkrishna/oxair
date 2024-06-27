@@ -5,12 +5,15 @@ import { Container, Row, Col } from "react-bootstrap";
 //import Image from 'react-bootstrap';
 import FacebookIcon from "../assets/icons/facebook_icon.png";
 import YoutubeIcon from "../assets/icons/youtube_icon.png";
-import XLogo from "../assets/icons/exe_icon.png"
+import XLogo from "../assets/icons/exe_icon.png";
+import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="footer">
       <Container>
+      <Link href="/">
         <Image src={FooterLog} alt="Axair" width={135} className="footer-log" />
+        </Link>
         <Row className="py-4">
           <Col md={4}>
             <div className="footer-content">
@@ -29,22 +32,22 @@ const Footer = () => {
               <h6>Quick Links</h6>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <a href="#">Products</a>
+                  <Link href="/">Products</Link>
                 </li>
                 <li>
-                  <a href="#">About Oxair India</a>
+                  <Link href="/aboutOxair">About Oxair India</Link>
                 </li>
                 <li>
-                  <a href="#">Resources</a>
+                  <Link href="/">Resources</Link>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <Link href="/">Blog</Link>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <Link href="/contactUs">Contact Us</Link>
                 </li>
               </ul>
             </div>

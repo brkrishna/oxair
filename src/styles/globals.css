@@ -48,6 +48,14 @@ letter-spacing: 0.84px;
   line-height: 27px;
   font: normal normal 600 14px/27px Open Sans;
 }
+.get-quote {
+  background: #39D000;
+  border: none;
+  padding: 2px 30px;
+  border-radius: 30px;
+  margin: 0;
+  color: #fff;
+}
 .dropdown-item{
   color: #888888;
   line-height: 27px;
@@ -245,11 +253,148 @@ ul.our-market-tabs {
   }
 
 }
+.the-oxair-india{
+  margin: 50px 0;
+}
+.defference-sec{
+   ul {
+  display: flex;
+  padding-left: 20px;
+  li {
+    margin: 0 17px;
+    font: normal normal bold 20px Open Sans;
+    color: #20205E;
+    &:first-child {
+margin-left: 0;
+    }
+  }
+}
+}
+.technology-section{
+  background: var(--unnamed-color-20205e) 0% 0% no-repeat padding-box;
+background: #20205E 0% 0% no-repeat padding-box;
+border-radius: 20px;
+}
+.our-technology-tabs {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: none;
+
+  li {
+    width: 30%;
+
+    button.nav-link {
+      text-align: left;
+      color: #39D000;
+      border: none;
+      border-bottom:5px solid #39D000 ;
+      height: 120px;
+      line-height: 20px;
+      span {
+        img {
+          display: block;
+        }
+      }
+    }
+
+    button.nav-link.active {
+      background-color: transparent !important;
+      border: none;
+      color: #fff;
+      border-bottom:5px solid #ffffff ;
+    }
+  }
+}
+/*Worlwide Installations*/
+.installation-count{
+  h2{
+    font: normal normal bold 40px/50px Open Sans;
+    letter-spacing: 0px;
+    color: #39D000;
+  }
+  p{
+    font: normal normal normal 20px/25px Open Sans;
+    letter-spacing: 0px;
+    color: #888888;
+    text-transform: uppercase;
+  }
+}
+
+/*Testimonial Section*/
+.testimonial-section{
+  display: inline-block;
+  margin-bottom: 50px;
+.section-heading{
+  font: normal normal 600 1.8vw/2.5vw Open Sans;
+  color: #2BDAFA;
+  margin-bottom: 0;
+}
+.section-sub-heading{
+  font: normal normal 600 1.8vw/2.5vw Open Sans;
+  color: #20205E;
+  margin-bottom: 20px;
+}
+  .carousel{
+    .carousel-indicators{
+      display: none;
+    }
+  }
+}
+.author-sec {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  .autor-details{
+margin-left: 20px;
+    h6{
+      margin: 0;
+      color: #20205E;
+      font: normal normal 600 16px Open Sans;
+    }
+    small{
+      color: #888888;
+      font: normal normal 14px/18px Open Sans;
+      display: block;
+    }
+  }
+}
+.testimonial{
+  p{
+    font: italic normal normal 14px/24px Open Sans;
+    color: #888888;
+  }
+}
+.carousel-control-next, .carousel-control-prev{
+  width: 40px;
+  background: #20205e;
+  height: 40px;
+  transform: translateY(-50%);
+  top: 50%;
+  border-radius: 100%;
+
+span{
+  background-size: 60%;
+}
+}
+
+
+/* .nav-tabs .nav-link.active{
+  background-color: transparent;
+} */
 /*container*/
 .container{
   max-width: 100%;
   padding: 0 10%;
   background: #fff;
+ }
+ @media(max-width:768px){
+  .our-technology-tabs {
+   
+    li {
+      width: 50%;
+    }
+  }
  }
 @media(min-width:1640px) {
  .container{
@@ -260,6 +405,26 @@ ul.our-market-tabs {
   width: 75%;
  }
 }
+.vertical-line {
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  height: 100%;
+  margin: 0 auto;
+}
+.icon-size {
+  width: 40px;
+  height: 40px; 
+}
+
+.font-gas {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.font-gas2{
+  font-weight: 700;
+  font-size: 24px;
+}
+
 
 /* styles/Home.module.css */
  
@@ -272,14 +437,13 @@ ul.our-market-tabs {
   color:#888888 ;
 }
 .oxy-smallfont{
-  font:normal normal bold 1vw/18px Open Sans;
+  font:normal normal bold 14px Open Sans;
   color:#888888 ;
 }
- 
-.knownmorebt{
-background-color: #39D000;
-
+.sub-headings1{
+  font: normal normal bold 28px Open Sans;
 }
+ 
 
 .product-heading{
   font: 16px/24px Open Sans #888888;
@@ -322,14 +486,6 @@ padding-left: 10px;}
     color: #888;
    
 }
-
- 
-
-.Ohpalign {
-  text-align: justify;
-}
- 
-
  
 .bordercolor{
    border-bottom: 8px solid #CCCCCC;

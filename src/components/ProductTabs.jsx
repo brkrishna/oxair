@@ -44,7 +44,7 @@ const ProductTabs = () => {
 
                             <div className="">
                                 <p className="headings dark-blue">Oxygen Generator</p>
-                                <h1 className="sub-headings dark-blue">
+                                <h1 className="sub-headings1 dark-blue">
                                     OA HP {selectedItem}
                                 </h1>
                             </div>
